@@ -1,13 +1,109 @@
 body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #2F3D48;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5E5E5;
+  position: relative;
+  min-height: calc(100vh - 50px);
+}
+footer{
+  background-color: #2F3D48;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+footer h6{
+  font-size: 11px;
+}
+nav{
+  background-color: #FFFFFF !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav .serchbar #serchbar{
+  padding-right: 100px;
+  margin-left: 200px;
+}
+a{
+  color: #2F3D48 !important;
+}
+#link_active{
+  color: #2462D2 !important
+}
+nav .img-user{
+  width: 36px;
+  height: 37.5px;
+}
+.container-cat{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 10px;
+}
+.container-cat h4{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#container-gral{
+  margin-top: 20px;
+  font-display: bold;
+}
+.lin-prod{
+  margin-bottom: 24px;
+}
+.fa-gear{
+  padding-right: 40px;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.serchbar i{
+  padding-right: 200px;
+}
+
+.container-docs{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 62px;
+}
+table{
+  color:#2F3D48 !important;
+}
+table td{
+  margin-top: 50%;
+}
+table h5{
+  font-size: 16px;
+  font-weight: bold;
+}
+table h6{
+  font-size: 13px;
+}
+.elipse_gris{
+  background-color: #F5F5F5 ;
+  padding: 5px;
+  border-radius: 40px;
+  
+}
+.elipse_gris2{
+  background-color: #F5F5F5 ;
+  padding: .5px;
+  border-radius: 100px;
+  
+}
+.elipse_verde{
+  background-color: #00B29D ;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 11px;
+  color:#FFFFFF;
+}
+.numeros_azules{
+  color: #2462D2;
+  align-items: center;
+}
+.table_cat td{
+  text-align: center;
+  
 }
