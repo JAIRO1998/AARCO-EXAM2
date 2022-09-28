@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JAIRO1998/AARCO-EXAM2/static/css/main.a6f695d4.css",
+    "main.js": "/JAIRO1998/AARCO-EXAM2/static/js/main.b27373f0.js",
+    "index.html": "/JAIRO1998/AARCO-EXAM2/index.html",
+    "main.a6f695d4.css.map": "/JAIRO1998/AARCO-EXAM2/static/css/main.a6f695d4.css.map",
+    "main.b27373f0.js.map": "/JAIRO1998/AARCO-EXAM2/static/js/main.b27373f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6f695d4.css",
+    "static/js/main.b27373f0.js"
+  ]
+}
