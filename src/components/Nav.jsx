@@ -6,14 +6,21 @@ export const Nav = () => {
                 <div className="navbar-brand">
                     <h3 className="fw-bold ms-5">SIA</h3>
                 </div>
-                <div id="search-bar">
-                    <button type="text" className="form-control serchbar d-none d-sm-block d-xl-none d-lg-none d-xl-block" ><i class="fa-solid fa-magnifying-glass"></i> </button>
+                <div class="form-group has-feedback d-none d-sm-block d-xl-none d-lg-none d-xl-block">
+                    <i class="fa-solid fa-magnifying-glass form-control-feedback"></i>
+                    <input type="text" class="form-control" placeholder="" />
                 </div>
                 <button className="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon pt-1"><i className="fa-solid fa-bars"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarScroll">
                     <ul className="navbar-nav">
+                        <li>
+                            <div class="form-group has-feedback d-block d-sm-none">
+                                <i class="fa-solid fa-magnifying-glass form-control-feedback"></i>
+                                <input type="text" class="form-control" placeholder="" />
+                            </div>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#">Inicio</a>
                         </li>
@@ -32,9 +39,9 @@ export const Nav = () => {
                     </ul>
                     <ul className="navbar-nav ms-auto me-5">
                         <li className="nav-item  me-3">
-                            <div id="search-bar">
-                                <button type="text" className="form-control serchbar d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" ><i class="fa-solid fa-magnifying-glass"></i> </button>
-                                <button type="text" className="form-control d-block d-sm-none" ><i class="fa-solid fa-magnifying-glass"></i> </button>
+                            <div class="form-group has-feedback serchbar d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+                                <i class="fa-solid fa-magnifying-glass form-control-feedback"></i>
+                                <input type="text" class="form-control" placeholder="" />
                             </div>
                         </li>
                         <li className="nav-item">

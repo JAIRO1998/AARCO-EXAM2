@@ -111,3 +111,12 @@ table h6{
 .table_cat td{
   text-align: center;
 }
+
+.form-control-feedback {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.form-control {
+  padding-left: 30px!important;
+}
