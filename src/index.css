@@ -50,6 +50,7 @@ nav .img-user{
 #container-gral{
   margin-top: 20px;
   font-display: bold;
+  max-width: 90% !important;
 }
 .lin-prod{
   margin-bottom: 24px;
@@ -81,12 +82,6 @@ table h5{
 }
 table h6{
   font-size: 10px;
-}
-.elipse_gris{
-  background-color: #F5F5F5 ;
-  padding: 5px;
-  border-radius: 40px;
-  
 }
 .elipse_gris2{
   background-color: #F5F5F5 ;

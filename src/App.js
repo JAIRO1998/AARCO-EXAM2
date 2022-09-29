@@ -13,10 +13,10 @@ function App() {
       </div>
       <div className='container' id="container-gral">
         <div className='row'>
-          <div className='col'>
+          <div className='col-lg-4 me-0 pe-0'>
             <Categorias />
           </div>
-          <div className='col'>
+          <div className='col-lg-8 me-0 pe-0'>
             <Documents />
           </div>
         </div>

@@ -5,12 +5,12 @@ export const Documents = () => {
   return (
     <div className='container container-docs'>
         <h4 className='pt-3'>Documentos</h4>
-        <table className="table" align='center'>
+        <table className="table">
         <tbody>
             <tr>
                 <th scope="row">
-                    <div className='elipse_gris'>
-                        <i class="fa-sharp fa-solid fa-file fa-xl"></i>
+                    <div className=''>
+                        <button type="button" class="btn btn-secondary btn-sm me-1 rounded-circle"><i class="fa-sharp fa-solid fa-file"></i></button>
                     </div>
                 </th>
                 <td>
@@ -22,12 +22,12 @@ export const Documents = () => {
                         <h6>11/01/22</h6>
                     </div>
                 </td>
-                <Buttons className=".d-none .d-lg-block .d-xl-none" />
+                <Buttons />
             </tr>
             <tr>
                 <th scope="row">
-                    <div className='elipse_gris'>
-                        <i class="fa-sharp fa-solid fa-file fa-xl"></i>
+                    <div className=''>
+                        <button type="button" class="btn btn-secondary btn-sm me-1 rounded-circle"><i class="fa-sharp fa-solid fa-file"></i></button>
                     </div>
                 </th>
                 <td>
@@ -43,8 +43,8 @@ export const Documents = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <div className='elipse_gris'>
-                        <i class="fa-sharp fa-solid fa-file fa-xl"></i>
+                    <div className=''>
+                        <button type="button" class="btn btn-secondary btn-sm me-1 rounded-circle"><i class="fa-sharp fa-solid fa-file"></i></button>
                     </div>
                 </th>
                 <td>
@@ -60,8 +60,8 @@ export const Documents = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <div className='elipse_gris'>
-                        <i class="fa-sharp fa-solid fa-file fa-xl"></i>
+                    <div className=''>
+                        <button type="button" class="btn btn-secondary btn-sm me-1 rounded-circle"><i class="fa-sharp fa-solid fa-file"></i></button>
                     </div>
                 </th>
                 <td>
