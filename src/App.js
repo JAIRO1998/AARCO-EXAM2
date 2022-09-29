@@ -8,6 +8,9 @@ function App() {
   return (
     <>
       <Nav />
+      <div className='container mt-5'>
+       <h2 className="lin-prod fw-bold">Líneas personales</h2>
+      </div>
       <div className='container' id="container-gral">
         <div className='row'>
           <div className='col'>

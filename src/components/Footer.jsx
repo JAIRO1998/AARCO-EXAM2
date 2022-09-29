@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer className="footer">
-       <footer className="navbar navbar-expand-sm">
+       <footer className="navbar navbar-expand-lg">
             <div className="container-fluid">
                 <div className="navbar-brand">
                     <img className='logo' src='https://www.aarco.com.mx/wp-content/uploads/2019/02/Logo-Aarco.png' width='120' alt="Logo" ></img>

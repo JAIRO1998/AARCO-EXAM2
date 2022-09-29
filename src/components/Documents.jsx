@@ -1,9 +1,10 @@
 import React from 'react'
+import { Buttons } from './Buttons'
 
 export const Documents = () => {
   return (
     <div className='container container-docs'>
-        <h4>Documentos</h4>
+        <h4 className='pt-3'>Documentos</h4>
         <table className="table" align='center'>
         <tbody>
             <tr>
@@ -21,11 +22,7 @@ export const Documents = () => {
                         <h6>11/01/22</h6>
                     </div>
                 </td>
-                <td>
-                    <i class="fa-regular fa-eye fa-xl"></i>
-                    <i class="fa-solid fa-download fa-xl"></i>
-                    <i class="fa-sharp fa-solid fa-share-nodes fa-xl"></i>
-                </td>
+                <Buttons />
             </tr>
             <tr>
                 <th scope="row">
@@ -42,11 +39,7 @@ export const Documents = () => {
                         <h6>11/01/22</h6>
                     </div>
                 </td>
-                <td>
-                    <i class="fa-regular fa-eye fa-xl"></i>
-                    <i class="fa-solid fa-download fa-xl"></i>
-                    <i class="fa-sharp fa-solid fa-share-nodes fa-xl"></i>
-                </td>
+                <Buttons />
             </tr>
             <tr>
                 <th scope="row">
@@ -63,11 +56,7 @@ export const Documents = () => {
                         <h6>11/01/22</h6>
                     </div>
                 </td>
-                <td>
-                    <i class="fa-regular fa-eye fa-xl"></i>
-                    <i class="fa-solid fa-download fa-xl"></i>
-                    <i class="fa-sharp fa-solid fa-share-nodes fa-xl"></i>
-                </td>
+                <Buttons />
             </tr>
             <tr>
                 <th scope="row">
@@ -84,11 +73,7 @@ export const Documents = () => {
                         <h6>11/01/22</h6>
                     </div>
                 </td>
-                <td>
-                    <i class="fa-regular fa-eye fa-xl"></i>
-                    <i class="fa-solid fa-download fa-xl"></i>
-                    <i class="fa-sharp fa-solid fa-share-nodes fa-xl"></i>
-                </td>
+                <Buttons />
             </tr>
         </tbody>
         </table>

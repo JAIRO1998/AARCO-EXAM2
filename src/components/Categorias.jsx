@@ -1,14 +1,15 @@
+import { Icons_cat } from "./Icons_cat"
+
 export const Categorias = () => {
   return (
     <>
-     <h2 className="lin-prod">Lineas personales</h2>
-     <div className="container-cat">
+     <div className="container-cat mb-3">
          <h4>Categorias</h4>
         <table className="table table_cat">
         <tbody>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> Vida
+                   <Icons_cat /> Vida
                 </th>
                 <td>
                 </td>
@@ -22,7 +23,7 @@ export const Categorias = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> Gastos Médicos Mayores
+                    <Icons_cat /> Gastos Médicos Mayores
                 </th>
                 <td>
                 </td>
@@ -36,7 +37,7 @@ export const Categorias = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> Autos
+                    <Icons_cat /> Autos
                 </th>
                 <td>
                 </td>
@@ -50,7 +51,7 @@ export const Categorias = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> Hogar
+                    <Icons_cat /> Hogar
                 </th>
                 <td>
                 </td>
@@ -64,7 +65,7 @@ export const Categorias = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> Accidentes personales
+                    <Icons_cat /> Accidentes personales
                 </th>
                 <td>
                 </td>
@@ -78,7 +79,7 @@ export const Categorias = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> Asistencias AARCO
+                    <Icons_cat /> Asistencias AARCO
                 </th>
                 <td>
                 </td>
@@ -92,7 +93,7 @@ export const Categorias = () => {
             </tr>
             <tr>
                 <th scope="row">
-                    <i class="fa-regular fa-folder fa-xl"></i> AARCO GO
+                    <Icons_cat /> AARCO GO
                 </th>
                 <td>
                 </td>

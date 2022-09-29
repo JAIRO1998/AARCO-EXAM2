@@ -1,12 +1,12 @@
 export const Nav = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-sm navbar-ligth shadow-sm">
+        <nav className="navbar navbar-expand-lg navbar-ligth shadow-sm">
             <div className="container-fluid">
                 <div className="navbar-brand">
                     <h3 className="fw-bold ms-5">SIA</h3>
                 </div>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"><i className="fa-solid fa-bars"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarScroll">

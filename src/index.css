@@ -7,10 +7,14 @@ body {
   position: relative;
   min-height: calc(100vh - 50px);
 }
+.container{
+  max-width: 1200px !important;
+}
 footer{
   background-color: #2F3D48;
   color: #FFFFFF;
   font-size: 15px;
+  margin-top: 20px;
 }
 footer h6{
   font-size: 11px;
@@ -39,11 +43,12 @@ nav .img-user{
   padding: 10px;
 }
 .container-cat h4{
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   margin-left: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 50% !important;
 }
 #container-gral{
   margin-top: 20px;
@@ -51,6 +56,7 @@ nav .img-user{
 }
 .lin-prod{
   margin-bottom: 24px;
+  font-size: 25px;
 }
 .fa-gear{
   padding-right: 40px;
@@ -65,7 +71,6 @@ nav .img-user{
 .container-docs{
   background-color: #FFFFFF;
   border-radius: 8px;
-  margin-top: 62px;
 }
 table{
   color:#2F3D48 !important;
@@ -74,11 +79,11 @@ table td{
   margin-top: 50%;
 }
 table h5{
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
 }
 table h6{
-  font-size: 13px;
+  font-size: 10px;
 }
 .elipse_gris{
   background-color: #F5F5F5 ;
@@ -105,5 +110,4 @@ table h6{
 }
 .table_cat td{
   text-align: center;
-  
 }
