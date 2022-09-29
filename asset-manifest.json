@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AARCO-EXAM2/static/css/main.6d4909a7.css",
-    "main.js": "/AARCO-EXAM2/static/js/main.678f917d.js",
+    "main.css": "/AARCO-EXAM2/static/css/main.87b676f7.css",
+    "main.js": "/AARCO-EXAM2/static/js/main.144e488d.js",
     "index.html": "/AARCO-EXAM2/index.html",
-    "main.6d4909a7.css.map": "/AARCO-EXAM2/static/css/main.6d4909a7.css.map",
-    "main.678f917d.js.map": "/AARCO-EXAM2/static/js/main.678f917d.js.map"
+    "main.87b676f7.css.map": "/AARCO-EXAM2/static/css/main.87b676f7.css.map",
+    "main.144e488d.js.map": "/AARCO-EXAM2/static/js/main.144e488d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d4909a7.css",
-    "static/js/main.678f917d.js"
+    "static/css/main.87b676f7.css",
+    "static/js/main.144e488d.js"
   ]
 }
