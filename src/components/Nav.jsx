@@ -6,8 +6,11 @@ export const Nav = () => {
                 <div className="navbar-brand">
                     <h3 className="fw-bold ms-5">SIA</h3>
                 </div>
+                <div id="search-bar">
+                    <button type="text" className="form-control serchbar d-xl-none d-lg-none d-xl-block" ><i class="fa-solid fa-magnifying-glass"></i> </button>
+                </div>
                 <button className="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"><i className="fa-solid fa-bars"></i></span>
+                    <span className="navbar-toggler-icon pt-1"><i className="fa-solid fa-bars"></i></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarScroll">
                     <ul className="navbar-nav">
@@ -28,12 +31,12 @@ export const Nav = () => {
                         </li>
                     </ul>
                     <ul className="navbar-nav ms-auto me-5">
-                        <li className="nav-item">
+                        <li className="nav-item  me-3">
                             <div id="search-bar">
-                                <button type="text" className="form-control serchbar" ><i class="fa-solid fa-magnifying-glass"></i> </button>
+                                <button type="text" className="form-control serchbar d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" ><i class="fa-solid fa-magnifying-glass"></i> </button>
                             </div>
                         </li>
-                        <li className="nav-item ms-5 .d-none .d-sm-block">
+                        <li className="nav-item">
                             <i class="fa-solid fa-gear"></i>
                         </li>
                         <li className="nav-item">

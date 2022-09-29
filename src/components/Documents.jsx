@@ -22,7 +22,7 @@ export const Documents = () => {
                         <h6>11/01/22</h6>
                     </div>
                 </td>
-                <Buttons />
+                <Buttons className=".d-none .d-lg-block .d-xl-none" />
             </tr>
             <tr>
                 <th scope="row">
